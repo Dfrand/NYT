@@ -3,6 +3,8 @@ var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key
 
 
 // AJAX call
+$('#searchBtn').on('click', function() {
+	console.log('clicked');
 $.ajax({
 	url: queryURL,
 	method: "GET"
@@ -10,4 +12,7 @@ $.ajax({
 
 .done(function(response){
 	console.log(response);
+
 })
+
+});
