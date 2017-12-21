@@ -1,1 +1,1 @@
-# NYT
+nyt api key 4a142327a02841f28aa4c1a4044054ea
